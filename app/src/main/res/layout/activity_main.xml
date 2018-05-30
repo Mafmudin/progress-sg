@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="loading"/>
+
+    <Button
+        android:id="@+id/searching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="searching"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"/>
+
+    <Button
+        android:id="@+id/sending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sending"/>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="upload"/>
+
+    <Button
+        android:id="@+id/searchingGif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="searching gif"/>
+
+</LinearLayout>
