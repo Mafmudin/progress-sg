@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 # Progress-svg-gif
 android progress bar with svg or gif file
 
@@ -77,13 +79,13 @@ enjoy the progress with svg file you have -_-
 
 
 ## How to use gif resources
-1. Prepare your gif resources, place it on drawable directory
+* Prepare your gif resources, place it on drawable directory
 
 <img src='https://github.com/Mafmudin/myassets/blob/master/images/gif.png?raw=true' alt="place it on drawable directory"/>
 
 *Drawable resource*
 
-2. Use it like ProgressDialog 
+* Use it like ProgressDialog 
 
 ```
  ProgressGif progressGif = new ProgressGif(MainActivity.this);
