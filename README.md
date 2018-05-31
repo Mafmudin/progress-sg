@@ -49,7 +49,8 @@ dependencies {
 1. Make sure you place the svg file inside the assets directory
 
 ### Image assets (svg) example
-<img src='https://github.com/Mafmudin/myassets/blob/master/images/assets.png?raw=true' alt="Image assets (svg) example"/></br>
+<img src='https://github.com/Mafmudin/myassets/blob/master/images/assets.png?raw=true' alt="Image assets (svg) example"/>
+
 * Make assets folder if no exsist (<a href='https://stackoverflow.com/questions/26706843/adding-an-assets-folder-in-android-studio?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa'>Add assets folder</a>)
 
 2. Use it like a ProgressDialog
@@ -77,7 +78,7 @@ example : ```progressSvg.dismiss()```
 
 # How to use gif resources
 1. Prepare your gif resources, place it on drawable directory </br>
-<img src='https://github.com/Mafmudin/myassets/blob/master/images/gif.png?raw=true' alt="place it on drawable directory"/></br>
+<img src='https://github.com/Mafmudin/myassets/blob/master/images/gif.png?raw=true' alt="place it on drawable directory"/> </br>
 2. Use it like ProgressDialog
 ```
  ProgressGif progressGif = new ProgressGif(MainActivity.this);
