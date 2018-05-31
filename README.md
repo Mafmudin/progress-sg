@@ -1,7 +1,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 # Progress-svg-gif
-android progress bar with svg or gif file
+android progress dialog with svg or gif file
 
 ### Add to android studio with gradle
 * Add following code to ```build.gradle```
