@@ -15,6 +15,7 @@ allprojects {
 ```
 
 2. Then add the dependency
+
 ```
 dependencies {
   implementation 'com.github.Mafmudin:progress-sg:0.0.1'
@@ -54,6 +55,7 @@ dependencies {
 * Make assets folder if no exsist (<a href='https://stackoverflow.com/questions/26706843/adding-an-assets-folder-in-android-studio?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa'>Add assets folder</a>)
 
 2. Use it like a ProgressDialog
+
 ```
 ProgressSvg progressSvg = new ProgressSvg(MainActivity.this);
 //create an object form this class with a Context
@@ -78,7 +80,9 @@ enjoy the progress with svg file you have -_-
 
 
 # How to use gif resources
+
 1. Prepare your gif resources, place it on drawable directory 
+
 <img src='https://github.com/Mafmudin/myassets/blob/master/images/gif.png?raw=true' alt="place it on drawable directory"/>
 
 2. Use it like ProgressDialog
