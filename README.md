@@ -1,8 +1,9 @@
-# progress-svg-gif
+# Progress-svg-gif
 android progress bar with svg or gif file
 
 ### Add to android studio with gradle
 * Add following code to ```build.gradle```
+
 ```
 allprojects {
   repositories {
@@ -11,13 +12,14 @@ allprojects {
    }
 }
 ```
+
 * Then add the dependency
+
 ```
 dependencies {
   implementation 'com.github.Mafmudin:progress-sg:0.0.1'
 }
 ```
-
 
 ### Add to android studio with maven
 * Add the JitPack repository to your build file
@@ -30,6 +32,7 @@ dependencies {
   </repository>
 </repositories>
 ```
+
 * Add the dependency
 
 ```
