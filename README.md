@@ -21,6 +21,7 @@ dependencies {
 
 ### Add to android studio with maven
 * Add the JitPack repository to your build file
+
 ```
 <repositories>
   <repository>
@@ -30,6 +31,7 @@ dependencies {
 </repositories>
 ```
 * Add the dependency
+
 ```
 <dependency>
   <groupId>com.github.Mafmudin</groupId>
@@ -40,12 +42,14 @@ dependencies {
 
 ## How to use
 * Make sure you place the svg file inside the assets directory
+
 ### Image assets (svg) example
 <img src='https://github.com/Mafmudin/myassets/blob/master/images/assets.png?raw=true' alt="Image assets (svg) example"/>
 
 *Make assets folder if no exsist* (<a href='https://stackoverflow.com/questions/26706843/adding-an-assets-folder-in-android-studio?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa'>Add assets folder</a>)
 
 * Use it like a ProgressDialog
+
 ```
 ProgressSvg progressSvg = new ProgressSvg(MainActivity.this);
 //create an object form this class with a Context
