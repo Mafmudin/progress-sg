@@ -73,12 +73,14 @@ progressSvg.show();
 
 *To dismiss the progress, call ```dismiss()``` method*
 example : ```progressSvg.dismiss()```
-<br/> enjoy the progress with svg file you have -_-
+
+enjoy the progress with svg file you have -_-
 
 
 # How to use gif resources
-1. Prepare your gif resources, place it on drawable directory </br>
-<img src='https://github.com/Mafmudin/myassets/blob/master/images/gif.png?raw=true' alt="place it on drawable directory"/> </br>
+1. Prepare your gif resources, place it on drawable directory 
+<img src='https://github.com/Mafmudin/myassets/blob/master/images/gif.png?raw=true' alt="place it on drawable directory"/>
+
 2. Use it like ProgressDialog
 ```
  ProgressGif progressGif = new ProgressGif(MainActivity.this);
