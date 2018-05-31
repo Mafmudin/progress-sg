@@ -2,9 +2,7 @@
 android progress bar with svg or gif file
 
 ### Add to android studio with gradle
-
 1. Add following code to ```build.gradle```
-
 ```
 allprojects {
   repositories {
@@ -13,9 +11,7 @@ allprojects {
    }
 }
 ```
-
 2. Then add the dependency
-
 ```
 dependencies {
   implementation 'com.github.Mafmudin:progress-sg:0.0.1'
@@ -24,9 +20,7 @@ dependencies {
 
 
 ### Add to android studio with maven
-
 1. Add the JitPack repository to your build file
-
 ```
 <repositories>
   <repository>
@@ -35,9 +29,7 @@ dependencies {
   </repository>
 </repositories>
 ```
-
 2. Add the dependency
-
 ```
 <dependency>
   <groupId>com.github.Mafmudin</groupId>
@@ -48,14 +40,12 @@ dependencies {
 
 ## How to use
 1. Make sure you place the svg file inside the assets directory
-
 ### Image assets (svg) example
 <img src='https://github.com/Mafmudin/myassets/blob/master/images/assets.png?raw=true' alt="Image assets (svg) example"/>
 
 * Make assets folder if no exsist (<a href='https://stackoverflow.com/questions/26706843/adding-an-assets-folder-in-android-studio?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa'>Add assets folder</a>)
 
 2. Use it like a ProgressDialog
-
 ```
 ProgressSvg progressSvg = new ProgressSvg(MainActivity.this);
 //create an object form this class with a Context
@@ -80,9 +70,7 @@ enjoy the progress with svg file you have -_-
 
 
 # How to use gif resources
-
 1. Prepare your gif resources, place it on drawable directory 
-
 <img src='https://github.com/Mafmudin/myassets/blob/master/images/gif.png?raw=true' alt="place it on drawable directory"/>
 
 2. Use it like ProgressDialog
