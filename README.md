@@ -1,10 +1,10 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 # Progress-svg-gif
-android progress dialog with svg or gif file
+android progress dialog dengan menggunakan file svg atau gif
 
-### Add to android studio with gradle
-* Add following code to ```build.gradle```
+### cara menambahkan progress-svg-gif ke project android studio dengan menggunakan gradle
+* tambahkan kode di bawah kedalam file ```build.gradle``` (root project)
 
 ```
 allprojects {
@@ -15,7 +15,7 @@ allprojects {
 }
 ```
 
-* Then add the dependency
+* lalu, tambahkan dependesi berikut kedalam file ```build.gradle``` (module aplikasi)
 
 ```
 dependencies {
@@ -23,8 +23,8 @@ dependencies {
 }
 ```
 
-### Add to android studio with maven
-* Add the JitPack repository to your build file
+### cara menambahkan progress-svg-gif ke project android studio dengan menggunakan maven
+* tambahkan *jitpack repository* ke dalam build file maven
 
 ```
 <repositories>
@@ -35,7 +35,7 @@ dependencies {
 </repositories>
 ```
 
-* Add the dependency
+* tambahkan dependesinya
 
 ```
 <dependency>
@@ -45,15 +45,14 @@ dependencies {
 </dependency>
 ```
 
-## How to use
-* Make sure you place the svg file inside the assets directory
+## cara menggunakan progress-svg-gif
+* pastikan sudah disiapkan file svg di dalam folder assets
 
-### Image assets (svg) example
-<img src='https://github.com/Mafmudin/myassets/blob/master/images/assets.png?raw=true' alt="Image assets (svg) example"/>
+<img src='https://github.com/Mafmudin/myassets/blob/master/images/assets.png?raw=true' alt="contoh tampilan susuna folder assets"/>
 
-*Make assets folder if no exsist* (<a href='https://stackoverflow.com/questions/26706843/adding-an-assets-folder-in-android-studio?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa'>Add assets folder</a>)
+*contoh tampilan lokasi file svg dalam folder assets, buatlah folder assets jika belum tersedia* (<a href='https://stackoverflow.com/questions/26706843/adding-an-assets-folder-in-android-studio?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa'>Link cara menambahkan folder assets</a>)
 
-* Use it like a ProgressDialog
+* gunakan progress-svg-gif seperti penggunaan progress dialog, contoh penggunaannya yaitu:
 
 ```
 ProgressSvg progressSvg = new ProgressSvg(MainActivity.this);
@@ -72,20 +71,20 @@ progressSvg.show();
 //call show() method to show the proggress
 ```
 
-*To dismiss the progress, call ```dismiss()``` method*
-example : ```progressSvg.dismiss()```
+*untuk menyembunyikan progress, panggil fungsi ```dismiss()``` *
+contoh : ```progressSvg.dismiss()```
 
-enjoy the progress with svg file you have -_-
+yap, *enjoy* penggunaan progress-svg-gif :)
 
 
-## How to use gif resources
-* Prepare your gif resources, place it on drawable directory
+## Cara menggunakan file gif
+* siapkan file gif dan simpan di dalam folder drawable (res/drawable)
 
-<img src='https://github.com/Mafmudin/myassets/blob/master/images/gif.png?raw=true' alt="place it on drawable directory"/>
+<img src='https://github.com/Mafmudin/myassets/blob/master/images/gif.png?raw=true' alt="simpan file gif di dalam folder drawable"/>
 
-*Drawable resource*
+*contoh tampilan susuan folder drawable*
 
-* Use it like ProgressDialog 
+* contoh pennggunaan progress-svg-giff yaitu: 
 
 ```
  ProgressGif progressGif = new ProgressGif(MainActivity.this);
@@ -98,5 +97,5 @@ enjoy the progress with svg file you have -_-
  //show the progress
 ```
 
-#### Download loading / progress svg, gif or apng file on
+#### Download loading / progress svg, gif atau apng file di link berikut
 ([Loading.io](https://loading.io/))
