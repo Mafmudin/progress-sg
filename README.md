@@ -88,7 +88,7 @@ yap, *enjoy* penggunaan progress-svg-gif :)
 
 *contoh tampilan susuan folder drawable*
 
-* contoh pennggunaan progress-svg-giff yaitu: 
+* contoh pennggunaan progress-svg-gif yaitu: 
 
 ```
  ProgressGif progressGif = new ProgressGif(MainActivity.this);
