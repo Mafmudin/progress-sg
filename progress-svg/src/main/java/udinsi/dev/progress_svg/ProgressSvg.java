@@ -43,11 +43,11 @@ public class ProgressSvg {
 
         dialog.setContentView(R.layout.dialog_svg);
 
-        WebView webView = (WebView) dialog.findViewById(R.id.webView);
-        TextView textView = (TextView) dialog.findViewById(R.id.loadingMessage);
+        WebView webView = dialog.findViewById(R.id.webView);
+        TextView textView = dialog.findViewById(R.id.loadingMessage);
 
         webView.getSettings().setDefaultZoom(WebSettings.ZoomDensity.FAR);
-        webView.setBackgroundColor(Color.TRANSPARENT);
+        webView.setBackgroundColor(backgroundColor);
         webView.loadDataWithBaseURL("file:///android_asset/", svgAssets,
                 "text/html", "utf-8", null);
 
