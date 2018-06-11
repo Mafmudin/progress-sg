@@ -69,6 +69,10 @@ progressSvg.setBackgroundColor(Color.GRAY);
 //set background as you want
 progressSvg.show();
 //call show() method to show the proggress
+progressSvg.setCancleable(false)
+//call cancleable with boolean value
+progressSvg.setCancleOnTouchOutside(false)
+//call setCancleableOnTouchOutside with boolean value
 ```
 
 *untuk menyembunyikan progress, panggil fungsi ```dismiss()``` *
