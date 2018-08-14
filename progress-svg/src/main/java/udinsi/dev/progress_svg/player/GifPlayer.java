@@ -1,4 +1,4 @@
-package udinsi.dev.progressanimation.player;
+package udinsi.dev.progress_svg.player;
 
 import android.content.Context;
 import android.graphics.Canvas;

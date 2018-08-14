@@ -7,7 +7,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.view.Window;
 import android.widget.TextView;
 
-import udinsi.dev.progressanimation.player.GifPlayer;
+import udinsi.dev.progress_svg.player.GifPlayer;
 
 public class ProgressGif {
 
