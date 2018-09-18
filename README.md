@@ -19,7 +19,7 @@ allprojects {
 
 ```
 dependencies {
-  implementation 'com.github.Mafmudin:progress-sg:0.0.1'
+  implementation 'com.github.mafmudin:progress-sg:0.0.1'
 }
 ```
 
@@ -39,7 +39,7 @@ dependencies {
 
 ```
 <dependency>
-  <groupId>com.github.Mafmudin</groupId>
+  <groupId>com.github.mafmudin</groupId>
   <artifactId>progress-sg</artifactId>
   <version>0.0.1</version>
 </dependency>
